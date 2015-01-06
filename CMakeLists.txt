@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+PROJECT( watermark_remover_proj )
+SET(CMAKE_BUILD_TYPE Release)
+FIND_PACKAGE( OpenCV REQUIRED )
+ADD_EXECUTABLE( watermark_remover watermark_remover.cpp )
+TARGET_LINK_LIBRARIES( watermark_remover ${OpenCV_LIBS} )
