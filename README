@@ -1,0 +1,32 @@
+                  +----------------------+
+                  | camera_opencv_sample |
+                  +----------------------+
+
+A watermark remover.
+
+License :                  see the LICENSE file.
+Authors :                  see the AUTHORS file.
+How to build the program:  see the INSTALL file.
+
+It needs a clean thumbnail of the image.
+It will replace the watermarked zones of the image
+with the ones of the thumbnail.
+
+________________________________________________________________________________
+
+How to use the program
+________________________________________________________________________________
+To display the help, just launch the program in a terminal.
+It will display the help of the program.
+
+** Synopsis
+
+Syntax: ./watermark_remover <dirty_filename> <clean_lowres_filename> <mark_mask_filename> <filename_out>
+   <dirty_filename>        a (high resoltion) image including the watermark
+   <clean_lowres_filename> a low resolution thumbnail of dirty_filename with no watermark
+   <mark_mask_filename>    an image were the watermark is painted in black
+   <filename_out>          the output file - if not specified, an automatic name is generated
+
+** Example
+
+watermark_remover sample_watermarked.jpeg sample_thumbnail.jpeg sample_watermark_mask.png
