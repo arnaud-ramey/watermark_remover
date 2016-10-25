@@ -1,5 +1,7 @@
 #` watermark_remover`
 
+[![Build Status](https://travis-ci.org/arnaud-ramey/watermark_remover.svg)](https://travis-ci.org/arnaud-ramey/watermark_remover)
+
 A watermark remover.
 
 * License :                  see the LICENSE file.
